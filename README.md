@@ -1,0 +1,15 @@
+ ## Užduotis
+ 
+ Turime valiutą 500, 100, 50, 20, 10, 5, 1 nominalo kupiūromis. PHP kalba realizuokite algoritmą, kuris paimtų vieną parametrą „pinigų suma keitimui“ ir grąžintų rezultatą „minimalus kupiūrų skaičius“.
+
+ ## Projekto direktorijos
+
+ -	/ - šakniniame kataloge įrašyti konfigūracijos failai testavimo darbams vykdyti. 
+ -	app/ - talpinamas puslapis, kuriame sukurta grafinė naudotojo sąsaja ir su ja susietas algoritmas užduočiai išspręsti.
+ -	tests/ - aprašyti automatizuoti testai užduoties algoritmui patikrinti.
+ -	vendor/ - PHPUnit karkaso failai.
+
+ ## Kaip vykdyti testus?
+
+ Per komandinę eilutę paleisti "/vendor/bin/phpunit" faile esantį skriptą. Jeigu automatiškai neaptinkamas konfigūracinis failas, tuomet leidžiant skriptą nurodykite jį kaip argumentą:
+ `phpunit -c ../../phpunit.xml`
